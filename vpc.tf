@@ -1,5 +1,5 @@
 module "network" {
-  source       = "app.terraform.io/EliasRDLCorp_NEW/network/google"
+  source       = "terraform-google-modules/network/google"
   version      = "3.4.0"
   network_name = "gaurav-network"
   project_id   = var.project
